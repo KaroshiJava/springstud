@@ -1,0 +1,12 @@
+#spring.jpa.hibernate.ddl-auto=update
+#spring.datasource.url=jdbc:mysql://localhost:3306/students_db
+#spring.datasource.username=root
+#spring.datasource.password=slapk2936
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring:
+  jpa.hibernate.ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/students_db
+    username: root
+    password: slapk2936
+    driver-class-name: com.mysql.cj.jdbc.Driver
