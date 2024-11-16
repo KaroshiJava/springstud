@@ -14,7 +14,6 @@ public class InMemoryStudentDAO {
         return students;
     }
 
-    //Сохранить
     public Student saveStudent(Student student) {
         students.add(student);
         return student;
@@ -27,7 +26,6 @@ public class InMemoryStudentDAO {
                 .findFirst()
                 .orElse(null);
     }
-//check feature001
 
     public Student updateStudent(Student student) {
         var studentIndex = IntStream.range(0, students.size())
